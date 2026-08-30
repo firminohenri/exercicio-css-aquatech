@@ -1,0 +1,248 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+:root {
+    --cor-primaria: #32b9cd;
+    --cor-secundaria: #e59130;
+
+    --cor-header: #000407;
+    --cor-bgsocial: #e5e5e5;
+
+    --cor-branco: #ffffff;
+    --cor-titlesocial: #de317c;
+
+    --cor-hover: #f7b973;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: var(--cor-header);
+    border-bottom: 4px solid var(--cor-primaria);
+    width: 100%;
+    padding: 30px 120px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titulo {
+    color: var(--cor-primaria);
+}
+
+.navbar {
+    display: flex;
+    gap: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    list-style-type: none;
+}
+
+.active {
+    font-weight: bold;
+    color: var(--cor-hover);
+}
+
+a:hover {
+    color: var(--cor-hover);
+    transition: all 0.2s;
+}
+
+ul li {
+    list-style-type: none
+}
+
+.banner {
+    display: flex;
+    justify-content: start;
+    background-image: url(/public/assets/imgs/bg-jelly-fish-para-home.png);
+    color: var(--cor-branco);
+    font-size: 32px;
+    padding: 150px 480px;
+    flex: 1
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    background-color: var(--cor-bgsocial);
+    padding: 40px 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+h4 {
+    color: var(--cor-titlesocial);
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 0px 70px;
+}
+
+.footer {
+    background-color: var(--cor-primaria);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h4 {
+    color: var(--cor-branco);
+}
+
+.version {
+    color: var(--cor-branco);
+}
+
+.simulador {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.simulador .container {
+    background-color: var(--cor-bgsocial);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.simulador .container h2 {
+    margin-bottom: 16px;
+    color: var(--cor-titlesocial);
+}
+
+.login {
+    background-image: url(/public/assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-login h2 {
+    color: var(--cor-titlesocial);
+}
+
+.card {
+    background-color: var(--cor-bgsocial);
+    padding: 20px 50px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    padding: 0px 16px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.formulario button {
+    align-self: center;
+}
+
+.formulario span {
+color: var(--cor-titlesocial);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 60px;
+    width: 100px;
+    border: none;
+    background-color: var(--cor-titlesocial);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.card-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-cadastro h2 {
+    color: var(--cor-titlesocial);
+}
