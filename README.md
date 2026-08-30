@@ -1,1 +1,1 @@
-# aquatech-somente-html
+# exercício css landing page aquatech
