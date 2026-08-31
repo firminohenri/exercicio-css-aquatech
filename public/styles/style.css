@@ -146,6 +146,8 @@ h4 {
 }
 
 .simulador {
+    background-image: url(/public/assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
