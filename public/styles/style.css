@@ -75,12 +75,13 @@ ul li {
 
 .banner {
     display: flex;
+    align-items: center;
     justify-content: start;
-    background-size: cover;
     background-image: url(/public/assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
     color: var(--cor-branco);
     font-size: 32px;
-    padding: 150px 480px;
+    padding: 150px 640px;
     flex: 1
 }
 
